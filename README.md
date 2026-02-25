@@ -78,7 +78,6 @@ Research-QA-Assistant/
 ---
  
 ## Technical Stack
- 
 - Streamlit
 - OpenAI GPT models
 - LangChain
@@ -134,57 +133,47 @@ streamlit run ProjectApp_RAG-SHAP-LIME.py
 ```
 
 ---
-Environment Setup
-Set your OpenAI API key:
-export OPENAI_API_KEY="your_api_key_here"
+## Evaluation Metrics
+- Answer relevance (qualitative evaluation)
+- Context retrieval accuracy
+- Reduction in hallucination
+- Response coherence
+- Explainability (SHAP & LIME interpretability)
+
+---
+
+## What Worked Well
+- Strong semantic retrieval performance
+- Improved reliability using RAG
+- Interactive Streamlit interface
+- Enhanced transparency through XAI
  
-Running the Application
-Run Basic RAG Version
-streamlit run ProjectApp_RAG.py
-Run RAG + Explainability Version
-streamlit run ProjectApp_RAG-SHAP-LIME.py
-The app will open at: http://localhost:8501
+---
+
+## Key Learnings
+- RAG significantly improves LLM reliability
+- Vector databases are essential for semantic retrieval
+- Explainability enhances trust in AI systems
+- System integration is critical for production-ready AI tools
  
-Evaluation Metrics
-	•	Answer relevance (qualitative evaluation)
-	•	Context retrieval accuracy
-	•	Reduction in hallucination
-	•	Response coherence
-	•	Explainability (SHAP & LIME interpretability)
+---
+
+## Future Improvements
+- Multi-document comparison
+- Citation highlighting
+- Source linking in answers
+- Fine-tuned domain embeddings
  
-What Worked Well
-	•	Strong semantic retrieval performance
-	•	Improved reliability using RAG
-	•	Interactive Streamlit interface
-	•	Enhanced transparency through XAI
- 
-Challenges & Solutions
- 
-Challenge
-Solution
-Large PDF processing
-Optimized chunking strategy
-Hallucination risk
-Retrieval-Augmented Generation
- 
-Key Learnings
-	•	RAG significantly improves LLM reliability
-	•	Vector databases are essential for semantic retrieval
-	•	Explainability enhances trust in AI systems
-	•	System integration is critical for production-ready AI tools
- 
-Future Improvements
-	•	Multi-document comparison
-	•	Citation highlighting
-	•	Source linking in answers
-	•	Fine-tuned domain embeddings
- 
-Academic Context
+---
+
+## Academic Context
 This project was developed as a Capstone Project demonstrating:
-	•	Generative AI Engineering
-	•	Retrieval-Augmented Generation
-	•	Explainable AI
-	•	Responsible AI system design
+- Generative AI Engineering
+- Retrieval-Augmented Generation
+- Explainable AI
+- Responsible AI system design
  
-License
+---
+
+## License
 This project is for academic and educational purposes.
