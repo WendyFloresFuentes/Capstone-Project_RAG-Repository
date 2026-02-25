@@ -12,6 +12,7 @@
 
 ## Overview
 The **Research Q&A Assistant** is an AI-powered interactive web-based academic assistant that allows users to upload research papers (PDFs) and ask domain-specific questions.
+
 The system uses:
 - Retrieval-Augmented Generation (RAG) for context-aware answering
 - Large Language Models (LLMs) via OpenAI
@@ -22,10 +23,12 @@ The system uses:
 
 ## Problem Statement
 Researchers face several challenges such as:
-	•	Time-consuming manual search through PDFs
-	•	Lack of semantic understanding with keyword-based search
-	•	Limited transparency in AI-generated answers
-	•	Hallucination of LLMs without grounding
+
+- Time-consuming manual search through PDFs
+- Lack of semantic understanding with keyword-based search
+- Limited transparency in AI-generated answers
+- Hallucination of LLMs without grounding
+
 ---
 
 ## Proposed Solution
