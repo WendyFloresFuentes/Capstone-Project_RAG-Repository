@@ -33,14 +33,18 @@ Researchers face several challenges such as:
 
 ## Proposed Solution
 A RAG-based Research Assistant that:
-	1	Extracts text from uploaded research papers
-	2	Converts text into semantic embeddings
-	3	Stores embeddings in a vector database
-	4	Retrieves relevant content using similarity search
-	5	Generates context-grounded answers using an LLM
-	6	Provides explanation using SHAP & LIME
+
+- Extracts text from uploaded research papers
+- Converts text into semantic embeddings
+- Stores embeddings in a vector database
+- Retrieves relevant content using similarity search
+- Generates context-grounded answers using an LLM
+- Provides explanation using SHAP & LIME
  
-System Architecture
+---
+
+## System Architecture
+```
 User Uploads PDF
         ↓
 Text Extraction (PyPDF / PyPDF2)
@@ -56,47 +60,59 @@ Similarity Retrieval
 OpenAI LLM (Answer Generation)
         ↓
 SHAP & LIME Explanation
- 
-Project Structure
-Research-QA-Assistant
-ProjectApp_RAG.py
-ProjectApp_RAG-SHAP-LIME.py
-requirements.txt
-README.md
+
+```
+
+---
+
+## Project Structure
+```
+Research-QA-Assistant/
+│
+├── ProjectApp_RAG.py
+├── ProjectApp_RAG-SHAP-LIME.py
+├── requirements.txt
+└── README.md
+```
+
+---
  
 ProjectApp_RAG.py: Core RAG-based research assistant.
 ProjectApp_RAG-SHAP-LIME.py: Extended version with Explainable AI integration.
  
-Technical Stack
+## Technical Stack
  
-Component
-Technology
-Frontend
-Streamlit
-LLM
-OpenAI GPT models
-Framework
-LangChain
-Embeddings
-Sentence Transformers
-Vector DB
-ChromaDB
-Explainability
-SHAP & LIME
-Data Handling
-Pandas
-Visualization
-Plotly
- 
-Installation
-1️ Clone the Repository
+- Streamlit
+- OpenAI GPT models
+- LangChain
+- Sentence Transformers
+- ChromaDB
+- SHAP & LIME
+
+---
+
+## Installation
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/your-username/Research-QA-Assistant.git
 cd Research-QA-Assistant
-2️ Create Virtual Environment (Recommended)
+```
+
+### Create Virtual Environment
+
+```bash
 python -m venv venv
-source venv/bin/activate  # macOS/Linux
-3️ Install Dependencies
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+---
  
 Environment Setup
 Set your OpenAI API key:
