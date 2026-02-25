@@ -1,4 +1,14 @@
-Overview
+# 📚 Research Q&A Assistant  
+### Retrieval-Augmented Generation (RAG) with Explainable AI (SHAP & LIME)
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
+![LangChain](https://img.shields.io/badge/LLM-LangChain-green)
+![OpenAI](https://img.shields.io/badge/Model-OpenAI-black)
+![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-purple)
+![Explainable AI](https://img.shields.io/badge/XAI-SHAP%20%7C%20LIME-orange)
+
+---Overview
 The Research Q&A Assistant is an AI-powered interactive web-based academic assistant that allows users to upload research papers (PDFs) and ask domain-specific questions.
 The system uses:
 	•	Retrieval-Augmented Generation (RAG) for context-aware answering
