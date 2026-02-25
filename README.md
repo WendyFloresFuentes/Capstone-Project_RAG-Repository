@@ -77,9 +77,6 @@ Research-QA-Assistant/
 
 ---
  
-ProjectApp_RAG.py: Core RAG-based research assistant.
-ProjectApp_RAG-SHAP-LIME.py: Extended version with Explainable AI integration.
- 
 ## Technical Stack
  
 - Streamlit
@@ -92,7 +89,7 @@ ProjectApp_RAG-SHAP-LIME.py: Extended version with Explainable AI integration.
 ---
 
 ## Installation
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/Research-QA-Assistant.git
@@ -113,7 +110,30 @@ pip install -r requirements.txt
 ```
 
 ---
- 
+
+## Set API Key
+
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+
+---
+
+## Run the Application
+
+### Basic Version
+
+```bash
+streamlit run ProjectApp_RAG.py
+```
+
+### Explainable AI Version
+
+```bash
+streamlit run ProjectApp_RAG-SHAP-LIME.py
+```
+
+---
 Environment Setup
 Set your OpenAI API key:
 export OPENAI_API_KEY="your_api_key_here"
