@@ -8,23 +8,27 @@
 ![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-purple)
 ![Explainable AI](https://img.shields.io/badge/XAI-SHAP%20%7C%20LIME-orange)
 
----Overview
-The Research Q&A Assistant is an AI-powered interactive web-based academic assistant that allows users to upload research papers (PDFs) and ask domain-specific questions.
+---
+
+## Overview
+The **Research Q&A Assistant** is an AI-powered interactive web-based academic assistant that allows users to upload research papers (PDFs) and ask domain-specific questions.
 The system uses:
-	•	Retrieval-Augmented Generation (RAG) for context-aware answering
-	•	Large Language Models (LLMs) via OpenAI
-	•	Vector embeddings and ChromaDB for semantic search
-	•	Explainable AI (XAI) techniques using SHAP and LIME
-This capstone project demonstrates how Retrieval-Augmented Generation (RAG) improves answer reliability while maintaining interpretability through Explainable AI techniques.
- 
- Problem Statement
+- Retrieval-Augmented Generation (RAG) for context-aware answering
+- Large Language Models (LLMs) via OpenAI
+- Vector embeddings and ChromaDB for semantic search
+- Explainable AI (XAI) techniques using SHAP and LIME
+
+---
+
+## Problem Statement
 Researchers face several challenges such as:
 	•	Time-consuming manual search through PDFs
 	•	Lack of semantic understanding with keyword-based search
 	•	Limited transparency in AI-generated answers
 	•	Hallucination of LLMs without grounding
- 
-Proposed Solution
+---
+
+## Proposed Solution
 A RAG-based Research Assistant that:
 	1	Extracts text from uploaded research papers
 	2	Converts text into semantic embeddings
